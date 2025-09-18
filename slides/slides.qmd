@@ -1,0 +1,35 @@
+---
+title: "Lab 1.2 Slides"
+format: revealjs
+bibliography: ../reference.bib
+---
+
+## Title
+
+Quarto website + notebook.  
+A citation here [@kleist2024connectivityflipgraphplane].
+
+---
+
+## Two Images
+
+![](../images/2861758147361_.pic_hd.jpg){width=45%}
+![](../images/2871758147364_.pic_hd.jpg){width=45%}
+
+---
+
+## A Chart (Python)
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 200)
+y = np.sin(x)
+
+plt.figure(figsize=(6,4))
+plt.plot(x, y, label="sin(x)")
+plt.title("A Simple Sine Curve")
+plt.legend()
+plt.grid(True)
+plt.show()

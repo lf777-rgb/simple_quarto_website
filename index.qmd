@@ -1,0 +1,92 @@
+---
+title: "simple_quarto_website"
+format: html
+---
+
+# Welcome
+
+This is the homepage of my Quarto website.  
+Here we will demonstrate various Markdown and Quarto features.
+
+---
+
+# Section 1: Text and Headings
+
+## Subsection 1.1
+
+Here is some regular text.  
+We can also **bold** words, *italicize* them, or create lists:
+
+- Item 1
+- Item 2
+- Item 3
+
+> This is a blockquote.  
+> It shows an important remark.
+
+---
+
+# Section 2: Tables and Columns
+
+Here is a simple Markdown table:
+
+| Name     | Age | Major         |
+|----------|-----|---------------|
+| Alice    | 21  | Data Science  |
+| Bob      | 22  | Mathematics   |
+| Charlie  | 23  | Physics       |
+
+::: columns
+::: column
+This is the **left column** text.
+:::
+
+::: column
+This is the **right column** text.
+:::
+:::
+
+---
+
+# Section 3: Equations
+
+Inline math example: $E = mc^2$  
+
+Block math example:  
+
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+
+---
+
+# Section 4: Footnote, Quote, and Reference
+
+This sentence has a footnote.[^1]  
+Here we cite two references: [@kleist2024connectivityflipgraphplane] and [@alonso2020genericrotationsetshyperbolic].
+
+[^1]: This is the footnote text.
+
+---
+
+# Section 5: Images and Video
+
+Here are two images:
+
+![](images/2861758147361_.pic_hd.jpg)
+![](images/2871758147364_.pic_hd.jpg)
+
+Here is an embedded video:
+
+[watch the video on YouTube](https://m.youtube.com/watch?v=RJQuSdXBMKk)
+title="YouTube video" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# Section 6: Mermaid Diagram
+
+```{mermaid}
+graph TD
+  A[Start] --> B{Decision}
+  B -->|Yes| C[Do Task]
+  B -->|No| D[Stop]
