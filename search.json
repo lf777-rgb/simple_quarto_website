@@ -24,8 +24,8 @@
     "objectID": "index.html#subsection-1.1",
     "href": "index.html#subsection-1.1",
     "title": "simple_quarto_website",
-    "section": "Subsection 1.1",
-    "text": "Subsection 1.1\nHere is some regular text.\nWe can also bold words, italicize them, or create lists:\n\nItem 1\nItem 2\nItem 3\n\n\nThis is a blockquote.\nIt shows an important remark."
+    "section": "2.1 Subsection 1.1",
+    "text": "2.1 Subsection 1.1\nHere is some regular text.\nWe can also bold words, italicize them, or create lists:\n\nItem 1\nItem 2\nItem 3\n\n\nThis is a blockquote.\nIt shows an important remark."
   },
   {
     "objectID": "index.html#footnotes",
